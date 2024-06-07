@@ -1,23 +1,9 @@
 :root {
   /* defaults */
-  --clr-dark: #070a13;
-  --clr-light: #f1f5f9;
-
-  /* primary */
-  --clr-darkblue: hsl(233, 26%, 24%);
-  --clr-limeblue: #31d35c;
-  --clr-brightcyan: hsl(192, 70%, 51%);
-
-  /* neutral */
-  --clr-greyishblue: #9698a6;
-  --clr-light-greyishblue: #b6b8bb;
-  --clr-verylight: #fafafa;
+  --clr-lightblue: #d0d6f9;
   --clr-white: #ffffff;
 
-  --clr-footer: #2d314d;
-
-  /* btn-gradient */
-  --clr-btn: linear-gradient(282deg, #31d35c, #28a94a);
+  --clr-darkblue: #000000;
 
   /* sizes */
   --size-xxs: 0.5rem;
@@ -50,6 +36,13 @@ html {
 
 body {
   font-family: "Public Sans", sans-serif;
+
+  background-image: url(/assets/home/background-home-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
 }
 

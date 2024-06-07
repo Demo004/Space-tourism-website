@@ -1,4 +1,4 @@
-.mobile-background {
+/* .mobile-background {
   background-image: url(/assets/home/background-home-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -6,7 +6,7 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-}
+} */
 
 .header {
   position: relative;
@@ -106,21 +106,15 @@
   cursor: pointer;
 }
 
-/* .header__sidebar nav ul li a:focus::after {
-} */
-
 .header__sidebar nav ul li a:hover::after {
   content: "";
   position: absolute;
   right: 0;
-  width: 0.125rem;
+  width: 0.1875rem;
   height: 20px;
+  border-radius: 15px;
   background-color: var(--clr-light-greyishblue);
   transition: all 0.5s ease-in-out;
-}
-
-.header__sidebar nav ul li a:hover {
-  width: 0.125rem;
 }
 
 .header__close-icon {
@@ -150,14 +144,7 @@
 
 /* lg */
 @media (min-width: 1024px) {
-  .mobile-background {
-    background-image: url(/public/assets/home/background-home-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-  }
+  
 
   .header {
     position: relative;
@@ -192,7 +179,7 @@
   }
 
   .header__links a::after {
-    content: '';
+    content: " ";
     position: absolute;
     left: 0;
     bottom: 0;
@@ -200,6 +187,7 @@
     height: 2px;
     background-color: var(--clr-white);
     transition: width 0.5s ease-in-out;
+    z-index: 0;
   }
 
   .header__links a:hover::after {
