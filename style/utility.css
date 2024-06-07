@@ -1,0 +1,83 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+/* reusable components */
+
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.contain {
+  width: 100%;
+}
+
+/* seperate container for only header section */
+.contained {
+  width: 100%;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+/* xs */
+@media (min-width: 29.6875rem) {
+  .container {
+    max-width: 29.6875rem;
+  }
+}
+
+/* sm */
+@media (min-width: 40rem) {
+  .container {
+    max-width: 40rem;
+  }
+}
+
+/* md */
+@media (min-width: 48rem) {
+  .container {
+    max-width: 48rem;
+  }
+}
+
+/* lg */
+@media (min-width: 64rem) {
+  .container {
+    max-width: 64rem;
+  }
+}
+
+/* xl */
+@media (min-width: 80rem) {
+  .container {
+    max-width: 80rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 96rem) {
+  .container {
+    max-width: 96rem;
+  }
+}
