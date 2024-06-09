@@ -2,6 +2,7 @@
   /* defaults */
   --clr-lightblue: #d0d6f9;
   --clr-white: #ffffff;
+  --clr-slate400: #8c8c91;
 
   --clr-darkblue: #000000;
 
@@ -36,14 +37,7 @@ html {
 
 body {
   font-family: "Public Sans", sans-serif;
-
-  background-image: url(/assets/home/background-home-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  color: var(--clr-lightblue);
 }
 
 h1,
